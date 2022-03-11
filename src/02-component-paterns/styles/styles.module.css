@@ -1,8 +1,6 @@
-
-
 .productCard {
     background-color: white;
-    border-radius: 15px;
+    border-radius: 20px;
     color: black;
     padding-bottom: 5px;
     width: 250px;
@@ -59,4 +57,10 @@
 
 .buttonAdd:hover {
     background-color: rgba(0, 0, 0, 0.1);
+}
+
+.disabled {
+    border-color: grey !important;
+    border-left: 1px solid white !important;
+    color: grey !important;
 }
